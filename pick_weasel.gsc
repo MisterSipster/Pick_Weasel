@@ -17,7 +17,9 @@ assign_weasel()
 
     if ( players.size == 1 )
     {
-        level.has_weasel = 1;
+        // Set "level.has_weasel = 0" if you want a different character
+        level.has_weasel = 1;     
+        // 3 = Weasel, 2 = Billy, 1 = Sal, 0 = Finn
         return 3;
     }
     else
